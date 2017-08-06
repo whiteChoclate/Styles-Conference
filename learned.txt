@@ -3,7 +3,8 @@
 Divisions, or <div>s, and <span>s are HTML elements that act as containers solely for styling purposes. As generic containers, they do not come with any overarching meaning or semantic value. Paragraphs are semantic in that content wrapped within a <p> element is known and understood as a paragraph. <div>s and <span>s do not hold any such meaning and are simply containers.
 
 * <div> is a block-level element that is commonly used to identify large groupings of content
-* helps to build a web page’s layout and design.
+* helps to build a web page’s layout and design
+* If content is being grouped solely for styling purposes and doesn’t provide value to the outline of a document, use the <div> element
 
 * <span> is an inline-level element commonly used to identify smaller groupings of text within a block-level element.
 
@@ -49,3 +50,38 @@ Divisions, or <div>s, and <span>s are HTML elements that act as containers solel
 * Fortunately HTML5 introduced new structurally based elements, including the <header>, <nav>, <article>, <section>, <aside>, and <footer> elements.
 * are intended to give meaning to the organization and improve our structural semantics
 * they are all block-level elements and do not have any implied position or style
+
+====== Header ======
+
+* the <header> element may include a heading, introduction text, and even navigation
+
+===== Navigation ======
+
+* The <nav> element identifies a section of major navigational links on a page
+* should be reserved for primary navigation sections only
+* such as global navigation, a table of contents, previous/next links, or other noteworthy groups of navigational links
+
+===== Article =====
+
+* <article> element is used to identify a section of independent, self-contained content that may be independently distributed or reused
+* to mark up blog posts, newspaper articles, user-submitted content, and the like
+* contribute to a document’s structure and help to outline a document
+* content adds to the document outline and it can be independently redistributed or syndicated
+
+====== Section ======
+
+* <section> element is used to identify a thematic grouping of content
+* generally, but not always, includes a heading
+* contribute to a document’s structure and help to outline a document
+* content adds to the document outline and represents a thematic group of content
+
+===== Aside ======
+
+* holds content, such as sidebars, inserts, or brief explanations, that is tangentially related to the content surrounding it
+* all of the structural elements, including the <aside> element, are block-level elements and as such will appear on a new line, occupying the full available width of the page
+* or of the element they are nested within, also known as their parent element
+
+===== Footer =====
+
+* identifies the closing or end of a page, article, section, or other segment of a page
+* Content within the <footer> element should be relative information and should not diverge from the document or section it is included within
